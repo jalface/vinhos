@@ -53,7 +53,7 @@ if (isset($_SESSION['user'])) {
         </div> <!-- end navbar-header -->
 
         <div class="collapse navbar-collapse" id="navbar-collapse">
-          <a href="#" class="btn btn-danger navbar-btn navbar-right">Logout</a>
+          <!-- <a href="#" class="btn btn-danger navbar-btn navbar-right">Logout</a> -->
 
           <ul class="nav navbar-nav">
             <li><a href="#section-testimonials">Vinhos</a></li>
@@ -99,10 +99,9 @@ if (isset($_SESSION['user'])) {
 
 
     <!-- FOOTER -->
-<!--     <div class="footer navbar-fixed-bottom">
-      <hr>
+    <div class="footer navbar-fixed-bottom navbar-inverse">
       <p class="text-center"> footer....fixed bottom</p>
-    </div> -->
+    </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>

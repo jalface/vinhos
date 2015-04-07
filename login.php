@@ -22,7 +22,8 @@ if (isset($_POST['login'])) {
 <div class="container" style="padding-top: 200px;">
     <p class="description"><?php echo $erro; ?></p>
 
-    <div class="col-lg-4 col-lg-offset-4 centered" style="box-shadow: 0 0 30px black; padding:10px 15px 0 15px;border-radius:5px;background-color: #FFFFFF; opacity: 0.80;">
+    <div class="col-lg-6 col-lg-offset-3 centered" style="box-shadow: 0 0 30px black; padding:10px 15px 0 15px;border-radius:5px;background-color: #FFFFFF; opacity: 0.90;">
+    <p class="text-center"><span class="glyphicon glyphicon-glass centered" aria-hidden="true" style="font-size: 50px;"></span></p>
         <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post" accept-charset="utf-8">
 
             <div class="form-group has-feedback">
@@ -37,9 +38,8 @@ if (isset($_POST['login'])) {
             </div>
 
             <div class="form-group">
-              <button type="submit" class="btn btn-success">Login</button>
-               <span class="text-muted"> Ainda não é um usuário? <a href="#">Cadastre-se aqui.</a></span>
-
+              <button type="submit" class="btn btn-success" style="display: block; width: 100%;">Login</button>
+               <div class="text-center"><span class="text-muted text-center"> Ainda não é um usuário? <a href="#">Cadastre-se aqui.</a></span></div>
             </div>
 
         </form>
