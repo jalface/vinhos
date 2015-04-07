@@ -27,6 +27,9 @@ if (isset($_SESSION['user'])) {
   <meta name="author" content="">
 
   <!-- CSS & JS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/global.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 
   <!-- SCRIPT -->
   <script type="text/javascript"></script>
@@ -34,14 +37,46 @@ if (isset($_SESSION['user'])) {
 </head>
 
 <body class="">
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" id="main-navbar" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+
+          <a href="index.html" class="navbar-brand">Vinhos!</a>
+        </div> <!-- end navbar-header -->
+
+        <div class="collapse navbar-collapse" id="navbar-collapse">
+          <a href="#" class="btn btn-danger navbar-btn navbar-right">Logout</a>
+
+          <ul class="nav navbar-nav">
+            <li><a href="#section-testimonials">Vinhos</a></li>
+            <li><a href="#section-features">Produtores</a></li>
+            <li><a href="#section-gallery">Castas</a></li>
+            <li><a href="#section-faq">WishList</a></li>
+            <li><a href="#section-faq">Noticias</a></li>
+            <li><a href="#section-faq">Eventos</a></li>
+            <li><a href="#section-contact">Contactos</a></li>
+          </ul>
+        </div> <!-- end collapse -->
+      </div> <!-- end container -->
+    </nav>
+
+    <!-- BANNER -->
+    <div class="jumbotron">
+        <div class="container">
+              <h1>Vinhos.com!</h1>
+              <p>...</p>
+        </div>
+    </div>
+
     <div class="container">
-
-        <!-- BANNER -->
-        <header></header>
-
-        <!-- NAV -->
-        <nav></nav>
-
         <!-- FORMS \ CONTENT PLACEHOLDER -->
             <?php
             if (isset($option)) {
@@ -63,8 +98,46 @@ if (isset($_SESSION['user'])) {
             ?>
 
         <!-- FOOTER -->
-        <footer></footer>
+        <footer>
+          <hr>
+
+          <div class="container text-center">
+            <h3>Subscribe now for a 30-day free trial!</h3>
+            <p>Enter your name and email below</p>
+
+            <form action="#" class="form-inline" role="form">
+              <div class="form-group">
+                <label for="subscribe-name" class="sr-only">Name</label>
+                <input type="text" class="form-control" id="subscribe-name" placeholder="Name">
+              </div> <!-- end form-group -->
+              <div class="form-group">
+                <label for="subscribe-email" class="sr-only">Email address</label>
+                <input type="text" class="form-control" id="subscribe-email" placeholder="Email address">
+              </div> <!-- end form-group -->
+
+              <button type="submit" class="btn btn-default">Subscribe</button>
+
+              <p><small><em>We will only use your email address for sending the download link.</em></small></p>
+            </form>
+
+            <hr>
+
+            <ul class="list-inline">
+              <li><a href="#">Twitter</a></li>
+              <li><a href="#">Facebook</a></li>
+            </ul>
+
+            <p>&copy; Copyright 2014.</p>
+          </div> <!-- end container -->
+
+        </footer>
 
     </div>
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
 </body>
 </html>
