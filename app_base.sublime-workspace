@@ -1,0 +1,905 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"id_",
+				"id_vinhocasta"
+			],
+			[
+				"qu",
+				"quantidade_stock"
+			],
+			[
+				"q",
+				"quotemeta"
+			],
+			[
+				"id_pro",
+				"id_produtor"
+			],
+			[
+				"id_su",
+				"id_produtor_subregiao"
+			],
+			[
+				"id",
+				"id_user〔variable〕"
+			],
+			[
+				"Vinho",
+				"VinhoCasta〔class〕"
+			],
+			[
+				"com",
+				"comentario"
+			],
+			[
+				"wish",
+				"$wishvinho〔variable〕"
+			],
+			[
+				"vinho",
+				"$vinhocasta〔variable〕"
+			],
+			[
+				"getId",
+				"getIdWishList〔function〕"
+			],
+			[
+				"id_wis",
+				"id_wishvinho"
+			],
+			[
+				"id_user",
+				"id_usergrupovinho"
+			],
+			[
+				"id_pr",
+				"id_produtor_subregiao"
+			],
+			[
+				"get",
+				"getIdProdutorSubRegiao〔function〕"
+			],
+			[
+				"g",
+				"getCodigo〔function〕"
+			],
+			[
+				"wi",
+				"WishVinho〔class〕"
+			],
+			[
+				"vin",
+				"VinhoCasta〔class〕"
+			],
+			[
+				"Prod",
+				"ProdutorSubRegiao〔class〕"
+			],
+			[
+				"htm",
+				"html5	Simple HTML5 Boilerplate"
+			],
+			[
+				"require",
+				"require_once〔keyword〕"
+			],
+			[
+				"id_vin",
+				"id_vinho"
+			],
+			[
+				"id_vinho",
+				"id_vinhocasta"
+			],
+			[
+				"id_wish",
+				"id_wishvinho"
+			],
+			[
+				"id_produ",
+				"$id_produtor〔variable〕"
+			],
+			[
+				"sub",
+				"subregiao"
+			],
+			[
+				"include",
+				"include〔function〕"
+			],
+			[
+				"e",
+				"endTransaction〔function〕"
+			],
+			[
+				"set",
+				"setPermissoes〔function〕"
+			],
+			[
+				"result",
+				"resultset〔function〕"
+			],
+			[
+				"isset",
+				"isset〔function〕"
+			],
+			[
+				"start",
+				"start_date"
+			],
+			[
+				"P",
+				"PHP_SELF"
+			],
+			[
+				"if",
+				"if	if …"
+			],
+			[
+				"sin",
+				"sinonimo"
+			],
+			[
+				"PDO",
+				"PDOException〔class〕"
+			],
+			[
+				"tr",
+				"try	Wrap in try { … } catch (…) { … }"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.php",
+			"settings":
+			{
+				"buffer_size": 1502,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "login.php",
+			"settings":
+			{
+				"buffer_size": 1471,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "register.php",
+			"settings":
+			{
+				"buffer_size": 2596,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 400.0,
+		"last_filter": "install",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"script",
+				"Snippet: <script>"
+			],
+			[
+				"hex",
+				"Hex Viewer: Toggle Hex View"
+			],
+			[
+				"hexv",
+				"Hex Viewer: Toggle Hex View"
+			],
+			[
+				"for",
+				"Snippet: foreach …"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"try",
+				"Snippet: Wrap in try { … } catch (…) { … }"
+			],
+			[
+				"if",
+				"Snippet: if …"
+			],
+			[
+				"foreach",
+				"Snippet: foreach …"
+			],
+			[
+				"Snippet: pf",
+				"Snippet: pf"
+			],
+			[
+				"bs3-input-s",
+				"Snippet: bs3-input-submit"
+			],
+			[
+				"bs3-input",
+				"Snippet: bs3-input-hidden"
+			]
+		],
+		"width": 536.0
+	},
+	"console":
+	{
+		"height": 183.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/E/Programs/Dropbox/wamp/www/app_base",
+		"/E/Programs/Dropbox/wamp/www/app_base/includes"
+	],
+	"file_history":
+	[
+		"/E/Programs/Dropbox/wamp/www/app_base/mail.php",
+		"/E/Programs/Dropbox/wamp/www/app_base/regiao.php",
+		"/E/Programs/Sublime Text 3/Data/Packages/User/Preferences.sublime-settings",
+		"/E/Programs/Dropbox/wamp/www/app_base/index.php",
+		"/E/Programs/Dropbox/wamp/www/app_base/login.php",
+		"/E/Programs/Sublime Text 3/Data/Packages/User/Default (Windows).sublime-keymap",
+		"/E/Programs/Sublime Text 3/Data/Packages/Default/Preferences.sublime-settings",
+		"/E/Programs/Dropbox/wamp/www/app_base/register.php",
+		"/E/Programs/Dropbox/wamp/www/app_vinhos/index.php",
+		"/E/Programs/Dropbox/wamp/www/app_base/help_files/test2.php",
+		"/E/Programs/Dropbox/wamp/www/app_base/body.php",
+		"/E/Programs/Dropbox/wamp/www/app_base/classes/User.php",
+		"/C/Users/João/Downloads/spwa-demo-rev01/spwa-demo-rev01/index.php",
+		"/C/Users/João/Downloads/spwa-demo-rev01/spwa-demo-rev01/body.php",
+		"/E/Programs/Dropbox/wamp/www/app_base/classes/WishVinho.php",
+		"/E/Programs/Dropbox/wamp/www/app_base/form_login.php",
+		"/E/Programs/Dropbox/wamp/www/app_base/table.php",
+		"/E/Programs/Dropbox/wamp/www/app_base/classes/WishList.php",
+		"/E/Programs/Dropbox/wamp/www/app_base/classes/VinhoCasta.php",
+		"/E/Programs/Dropbox/wamp/www/app_base/classes/Connection.php",
+		"/E/Programs/Dropbox/wamp/www/app_base/classes/Vinho.php",
+		"/E/Programs/Dropbox/wamp/www/app_base/classes/UserGrupoVinho.php",
+		"/E/Programs/Dropbox/wamp/www/app_base/classes/SubRegiao.php",
+		"/E/Programs/Dropbox/wamp/www/app_base/classes/Regiao.php",
+		"/E/Programs/Dropbox/wamp/www/app_base/classes/Produtor_SubRegiao.php",
+		"/E/Programs/Dropbox/wamp/www/app_base/classes/Produtor.php",
+		"/E/Programs/Dropbox/wamp/www/app_base/classes/Noticia.php",
+		"/E/Programs/Dropbox/wamp/www/app_base/classes/Grupo.php",
+		"/E/Programs/Dropbox/wamp/www/app_base/classes/Evento.php",
+		"/E/Programs/Dropbox/wamp/www/app_base/classes/Casta.php",
+		"/E/Programs/Dropbox/wamp/www/app_base/classes/Comentario.php",
+		"/E/Programs/Dropbox/wamp/www/app_base/classes/Pais.php",
+		"/E/Programs/Dropbox/wamp/www/app_base/classes/TemplateClasses.php",
+		"/E/Programs/Dropbox/wamp/www/app_base/data/dataTables-objects.txt",
+		"/E/Programs/Dropbox/wamp/www/app_base/form_vinho.php",
+		"/E/Programs/Dropbox/wamp/www/app_base/form_regiao.php",
+		"/E/Programs/Dropbox/wamp/www/app_base/global_reqs.php",
+		"/C/Users/João/Downloads/spwa-demo-rev01/spwa-demo-rev01/first.htm",
+		"/E/Games/Killer is Dead/KidGame/Config/DefaultInput.ini",
+		"/E/Programs/Dropbox/wamp/www/app_base/.htaccess",
+		"/E/Games/Killer is Dead/Binaries/Win32/KidGame.exe",
+		"/E/Programs/Dropbox/wamp/www/app_base/test.php",
+		"/E/Programs/Dropbox/wamp/www/app_base/req_pais.php",
+		"/E/Programs/Dropbox/wamp/www/app_base/req_subregiao.php",
+		"/E/Programs/Dropbox/wamp/www/app_pttelcom/inServiceTag.php",
+		"/E/Programs/Dropbox/wamp/www/app_base/db/querys.sql",
+		"/E/Programs/Dropbox/wamp/www/app_base/db/querys",
+		"/E/Programs/Dropbox/wamp/www/app_base/t",
+		"/E/Programs/Sublime Text 3/Data/Packages/HexViewer/hex_viewer.sublime-settings",
+		"/E/Programs/Sublime Text 3/Data/Packages/HexViewer/Default (Windows).sublime-keymap",
+		"/E/Programs/Dropbox/wamp/www/app_base/help_files/ListaVinho.php",
+		"/E/Programs/Dropbox/wamp/www/app_base/help_files/Lista.php",
+		"/E/Programs/Dropbox/wamp/www/app_base/help_files/list.php",
+		"/E/Programs/Dropbox/wamp/www/app_metro/test-page.html",
+		"/E/Programs/Dropbox/wamp/www/app_base/teste.html",
+		"/E/Programs/Dropbox/wamp/www/app_receitas/help files/index.php",
+		"/E/Programs/Dropbox/wamp/www/app_receitas/index.php",
+		"/E/Programs/Dropbox/wamp/www/app_base/help_files/select",
+		"/E/Programs/Dropbox/wamp/www/app_pttelcom/index.php",
+		"/E/Programs/Dropbox/wamp/www/app_base/help_files/ajax_req.php",
+		"/E/Programs/Dropbox/wamp/www/app_base/help_files/add.receita.php",
+		"/E/Programs/Sublime Text 3/Data/Packages/User/slt.sublime-snippet",
+		"/E/Programs/Sublime Text 3/Data/Packages/User/txt.sublime-snippet",
+		"/E/Programs/Dropbox/wamp/www/app_base/composer.json",
+		"/E/Programs/Dropbox/wamp/www/app_base/_classes/Pais.php",
+		"/E/Programs/Dropbox/wamp/www/app_base/_classes/Produtor.php",
+		"/E/Programs/Dropbox/wamp/www/app_base/_classes/Produtor_SubRegiao.php",
+		"/E/Programs/Dropbox/wamp/www/app_base/_classes/Regiao.php",
+		"/E/Programs/Dropbox/wamp/www/app_base/_classes/SubRegiao.php",
+		"/E/Programs/Dropbox/wamp/www/app_base/_classes/TemplateClasses.php",
+		"/E/Programs/Dropbox/wamp/www/app_base/_classes/User.php",
+		"/E/Programs/Dropbox/wamp/www/app_base/_classes/UserGrupoVinho.php",
+		"/E/Programs/Dropbox/wamp/www/app_base/_classes/Vinho.php",
+		"/E/Programs/Dropbox/wamp/www/app_base/_classes/VinhoCasta.php",
+		"/E/Programs/Dropbox/wamp/www/app_base/_classes/WishList.php",
+		"/E/Programs/Dropbox/wamp/www/app_base/_classes/WishVinho.php",
+		"/E/Programs/Dropbox/wamp/www/app_base/_classes/Casta.php",
+		"/E/Programs/Dropbox/wamp/www/app_base/_classes/Comentario.php",
+		"/E/Programs/Dropbox/wamp/www/app_base/_classes/Connection.php",
+		"/E/Programs/Dropbox/wamp/www/app_base/_classes/Evento.php",
+		"/E/Programs/Dropbox/wamp/www/app_base/_classes/Grupo.php",
+		"/E/Programs/Dropbox/wamp/www/app_base/_classes/Noticia.php",
+		"/E/Programs/Dropbox/wamp/www/app_receitas/help files/autoload.php",
+		"/E/Programs/Dropbox/wamp/www/app_base/autoload.php",
+		"/E/Programs/Dropbox/wamp/www/app_base/help_files/help",
+		"/E/Programs/Sublime Text 3/Data/Packages/User/PHP.sublime-settings",
+		"/E/Programs/Dropbox/wamp/www/app_base/includes/breadcrumbs.php",
+		"/E/Programs/Dropbox/wamp/www/app_base/includes/footer.php",
+		"/E/Programs/Dropbox/wamp/www/app_base/includes/banner.php",
+		"/E/Programs/Dropbox/wamp/www/app_base/includes/navbar.php",
+		"/E/Programs/Dropbox/wamp/www/app_base/includes/header.php",
+		"/E/Programs/Dropbox/wamp/www/app_receitas/help files/add.receita.php",
+		"/E/Programs/Dropbox/wamp/www/app_receitas/help files/ajax_req.php",
+		"/E/Programs/Dropbox/wamp/www/app_base/_classes/ListaVinho.php",
+		"/E/Programs/Dropbox/wamp/www/app_base/_classes/Lista.php",
+		"/E/Programs/Dropbox/wamp/www/app_base/_classes/casta.php",
+		"/E/Programs/Dropbox/wamp/www/app_base/_classes/lista.php",
+		"/E/Programs/Dropbox/wamp/www/app_base/_classes/subRegiao.php",
+		"/E/Programs/Dropbox/wamp/www/app_base/_classes/regiao.php",
+		"/E/Programs/Dropbox/wamp/www/app_base/_classes/produtor.php",
+		"/E/Programs/Dropbox/wamp/www/app_base/_classes/pais.php",
+		"/E/Programs/Dropbox/wamp/www/app_base/_classes/noticia.php",
+		"/E/Programs/Dropbox/wamp/www/app_base/_classes/grupo.php",
+		"/E/Programs/Dropbox/wamp/www/app_base/_classes/evento.php",
+		"/E/Programs/Dropbox/wamp/www/app_base/_classes/comentario.php",
+		"/E/Programs/Dropbox/wamp/www/app_base/_classes/user.php",
+		"/E/Programs/Dropbox/wamp/www/app_base/_classes/vinho.php",
+		"/E/Programs/Dropbox/wamp/www/app_base/_classes/wishList.php",
+		"/E/Programs/Dropbox/wamp/www/app_base/_classes/connection.php",
+		"/E/Programs/Sublime Text 3/Data/Packages/User/getset.sublime-snippet",
+		"/E/Programs/Dropbox/wamp/www/app_base/_classes/interface_classes.php",
+		"/E/Programs/Dropbox/wamp/www/app_pttelcom/class/class.job_mpt.php",
+		"/E/Programs/Dropbox/wamp/www/app_pttelcom/class/class.lista_mpt.php",
+		"/E/Programs/Sublime Text 3/Data/Packages/User/JSON.sublime-settings",
+		"/E/Programs/Sublime Text 3/Data/Packages/User/phpcs.sublime-settings",
+		"/E/Programs/Sublime Text 3/Data/Packages/Phpcs/phpcs.sublime-settings",
+		"/E/Programs/Sublime Text 3/Data/Packages/SublimeLinter/SublimeLinter.sublime-settings",
+		"/C/wamp/bin/php/php5.5.12/php.ini",
+		"/E/Programs/Sublime Text 3/Data/Packages/User/phptag.sublime-snippet",
+		"/E/Programs/Sublime Text 3/Data/Packages/User/prv.sublime-snippet",
+		"/E/Programs/Dropbox/wamp/www/app_receitas/help files/class.user.php",
+		"/E/Programs/Dropbox/wamp/www/app_pttelcom/class/class.job_hdm.php",
+		"/E/Programs/Dropbox/wamp/www/app_pttelcom/class/class.job.php",
+		"/E/Programs/Dropbox/wamp/www/app_base/help_files/map",
+		"/E/Programs/Sublime Text 3/Data/Packages/User/pf.sublime-snippet",
+		"/E/Programs/Sublime Text 3/Data/Packages/User/SublimeCodeIntel.sublime-settings",
+		"/E/Programs/Sublime Text 3/Data/Packages/SublimeCodeIntel/SublimeCodeIntel.sublime-settings",
+		"/E/Programs/Sublime Text 3/Data/Packages/User/php.sublime-settings"
+	],
+	"find":
+	{
+		"height": 28.0
+	},
+	"find_in_files":
+	{
+		"height": 95.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"casta",
+			"listarItemsFiltro",
+			"Mouse",
+			"R",
+			"on",
+			"private",
+			"'",
+			"getID",
+			"fetchHash",
+			"# error handling...",
+			"checkUsername",
+			"id_casta",
+			"getId",
+			"idComenario",
+			"getIdComentario",
+			"getIdCasta",
+			"getId",
+			"'\\n'",
+			") \n",
+			"echo",
+			"public static function listar($parameter, $value)",
+			"public function listar",
+			"PDO",
+			"namespace _classes;",
+			"Pais",
+			"$_SESSION['User']",
+			"Username",
+			"user",
+			"id_subregiao",
+			"id_produtor",
+			"produtor_subregiao",
+			"id_produtor_subregiao",
+			"lista_vinho",
+			"id_listavinho",
+			"wishlist_vinho",
+			"id_wishlist",
+			"id_wishvinho",
+			"id_wish_vinho",
+			"produtor_subregiao",
+			"id_subregiao",
+			"id_wish_list",
+			"id_produtor",
+			"id_produtor_subregiao",
+			"casta",
+			"id_casta",
+			"cor",
+			"casta",
+			"id_casta",
+			"'{$parameter}'",
+			"cor",
+			"caracteristicas",
+			"casta",
+			"id_casta",
+			"',",
+			"vinho', ano', tipo', alcool', volume', caracteristicas', premios', front_label', back_label', valor_aprox', stamptime', vinificacao', servico_consumo', gastronomia', public', id_produtor_regiao",
+			",",
+			"$",
+			"nome",
+			";",
+			"$",
+			"private",
+			";",
+			"private",
+			"casta",
+			"id_casta",
+			"populateUser",
+			"sub_regiao",
+			"subregiao",
+			"caracteristicas",
+			"casta",
+			"id_casta",
+			"caracteristicas",
+			"casta",
+			"id_casta",
+			"cor",
+			"caracteristicas",
+			"casta",
+			"id_casta",
+			"getID",
+			"checkPais",
+			"casta",
+			"id_casta",
+			"getID",
+			"checkNoticia",
+			"getID",
+			"checkGrupo",
+			"getID",
+			"checkEvento",
+			"listarComentario",
+			"getID",
+			"checkComentario",
+			"selectCasta",
+			"listarCasta",
+			"getID",
+			"checkCasta",
+			"ending",
+			"connection",
+			"display_errors",
+			"caracteristicas",
+			"casta",
+			"id_casta",
+			"checkCasta",
+			"result()",
+			"foreach",
+			"as",
+			"website",
+			"informacoes",
+			"produtor",
+			"id_produtor",
+			"end_data",
+			"timestamp",
+			"1",
+			"submit",
+			"regiao"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"",
+			"public static function listar(array $fields, array $args)",
+			"public static function listar",
+			"namespace classes;",
+			"{$parameter}"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1502,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								202,
+								202
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "login.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1471,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								386,
+								386
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "register.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2596,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								788,
+								788
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"auto_complete": false,
+							"bh_regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 37.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": false,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.hex_viewer_inspector":
+	{
+		"height": 126.0
+	},
+	"pinned_build_system": "",
+	"project": "app_base.sublime-project",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

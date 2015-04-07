@@ -1,0 +1,8 @@
+{
+    "autoload": {
+        "classmap": ["classes/"],
+        "psr-0": {
+            "classes" : "app_base"
+        }
+    }
+}
