@@ -26,40 +26,45 @@ if (isset($_SESSION['user'])) {
   <meta name="description" content="">
   <meta name="author" content="">
 
-
-
-  <!-- CSS -->
-  <link href="css/metro-bootstrap.css" rel="stylesheet">
-  <link href="css/metro-bootstrap-responsive.css" rel="stylesheet">
-  <link href="css/iconFont.css" rel="stylesheet">
-  <link href="css/docs.css" rel="stylesheet">
-  <link href="js/prettify/prettify.css" rel="stylesheet">
-
-  <!-- Load JavaScript Libraries -->
-  <script src="js/jquery/jquery.min.js"></script>
-  <script src="js/jquery/jquery.widget.min.js"></script>
-  <script src="js/jquery/jquery.mousewheel.js"></script>
-  <script src="js/prettify/prettify.js"></script>
-
-  <!-- Metro UI CSS JavaScript plugins -->
-  <script src="js/load-metro.js"></script>
-
-  <!-- Local JavaScript -->
-  <script src="js/docs.js"></script>
+  <!-- CSS & JS -->
 
   <!-- SCRIPT -->
-  <script type="text/javascript">
-
-  </script>
+  <script type="text/javascript"></script>
 
 </head>
 
-<body class="metro">
+<body class="">
+    <div class="container">
 
-    <!-- INCLUDE BODY -->
-    <?php include('body.php'); ?>
+        <!-- BANNER -->
+        <header></header>
 
-    <script src="js/hitua.js"></script>
+        <!-- NAV -->
+        <nav></nav>
+
+        <!-- FORMS \ CONTENT PLACEHOLDER -->
+            <?php
+            if (isset($option)) {
+                switch ($option) {
+                    case 'login':
+                        include('login.php');
+                        break;
+                    case 'vinho':
+                        include('vinho.php');
+                        break;
+                    case 'regiao':
+                        include('regiao.php');
+                        break;
+                    default:
+                        # code ...
+                        break;
+                }
+            }
+            ?>
+
+        <!-- FOOTER -->
+        <footer></footer>
+
+    </div>
 </body>
-
 </html>
