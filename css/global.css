@@ -1,0 +1,8 @@
+.full {
+    background:no-repeat center center fixed;
+    background-image: url('../images/vineyard.jpeg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
