@@ -1,5 +1,6 @@
 <!-- PHP -->
 <?php
+$erro = '';
 
 if (isset($_POST['login'])) {
     $username = $_POST['username'];
@@ -14,6 +15,10 @@ if (isset($_POST['login'])) {
     } else {
         $erro = $user->getErro();
     }
+}
+
+if (isset($_POST['register'])) {
+  header('Location: '. __DIR__ . '/register.php');
 }
 ?>
 
@@ -36,6 +41,7 @@ if (isset($_POST['login'])) {
                     <button class="btn-reveal" tabindex="-1"></button>
                 </div>
                 <input type="submit" value="login" name="login">
+                <input type="submit" value="register" name="register">
             </fieldset>
         </form>
 </div>
